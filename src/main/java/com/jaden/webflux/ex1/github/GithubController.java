@@ -1,8 +1,8 @@
-package com.jaden.webflux.github;
+package com.jaden.webflux.ex1.github;
 
-import com.jaden.webflux.config.AppProperties;
-import com.jaden.webflux.payload.GithubRepo;
-import com.jaden.webflux.payload.RepoRequest;
+import com.jaden.webflux.ex1.config.AppProperties;
+import com.jaden.webflux.ex1.model.GithubRepo;
+import com.jaden.webflux.ex1.model.RepoRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package com.jaden.webflux;
 
-import com.jaden.webflux.config.AppProperties;
+import com.jaden.webflux.ex1.config.AppProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

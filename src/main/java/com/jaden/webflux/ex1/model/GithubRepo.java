@@ -1,4 +1,4 @@
-package com.jaden.webflux.payload;
+package com.jaden.webflux.ex1.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

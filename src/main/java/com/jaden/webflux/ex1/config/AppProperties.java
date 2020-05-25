@@ -1,4 +1,4 @@
-package com.jaden.webflux.config;
+package com.jaden.webflux.ex1.config;
 
 import lombok.Getter;
 import lombok.Setter;
