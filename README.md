@@ -13,3 +13,10 @@ OMDB API 를 사용한 동일한 예제 (https://omdbapi.com/)
 필요한 정보는 Environment 를 이용하여 사용  
 
 참고 : https://springframework.guru/spring-5-webclient/
+
+# Swagger 2 추가
+Webflux 에서는 @EnableSwagger2WebFlux 사용을 위해  
+gradle repository 에 아래를 추가해야 함  
+maven { url "http://oss.jfrog.org/artifactory/oss-snapshot-local"}  
+
+http://localhost:8080/swagger-ui.html
