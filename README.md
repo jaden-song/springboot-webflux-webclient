@@ -14,6 +14,12 @@ OMDB API 를 사용한 동일한 예제 (https://omdbapi.com/)
 
 참고 : https://springframework.guru/spring-5-webclient/
 
+# 예제 3 (ex3)
+redis도 비동방식이라 화면에서 block 현상없이 데이터를 받아온다. 
+필요한 정보는 @Value("${spring.redis.port") 를 이용하여 사용
+
+참고 : https://warpgate3.tistory.com/entry/Spring2xWebFlux-ReactiveRedis
+
 # Swagger 2 추가
 Webflux 에서는 @EnableSwagger2WebFlux 사용을 위해  
 gradle repository 에 아래를 추가해야 함  
